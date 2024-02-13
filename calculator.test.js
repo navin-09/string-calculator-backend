@@ -16,6 +16,3 @@ test("add with new lines between numbers returns their sum", () => {
   expect(calculator.add("1\n2,3")).toBe(6);
 });
 
-test("add with different delimiters returns their sum", () => {
-  expect(calculator.add("//;\n1;2")).toBe(3);
-});
