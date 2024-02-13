@@ -1,8 +1,8 @@
 function add(numbers) {
   if (numbers === "") return 0;
 
-  if (numbers.length === 1) return parseInt(numbers[0]);
-  return parseInt(numbers[0]) + parseInt(numbers[1]);
+  const nums = numbers.split(",");
+  return nums.reduce((acc, num) => acc + parseInt(num), 0);
 }
 
 module.exports = { add };
