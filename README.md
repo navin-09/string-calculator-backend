@@ -1,3 +1,5 @@
+![image](https://github.com/navin-09/string-calculator-backend/assets/22154182/b13bb703-c7e1-4dcd-a983-e553beb1f9e5)
+
 # String Calculator
 
 ## Introduction
