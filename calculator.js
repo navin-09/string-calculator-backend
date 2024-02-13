@@ -7,6 +7,10 @@ function add(numbers) {
     numbers = numbers.substring(delimiterIndex + 1);
   }
   const nums = numbers.split(new RegExp(`${delimiter}|\n`));
+  const negatives = nums.filter((num) => parseInt(num) < 0);
+  if (negatives.length > 0) {
+    throw new Error(`negative numbers not allowed ${negatives.join(",")}`);
+  }
   return nums.reduce((acc, num) => acc + parseInt(num), 0);
 }
 
