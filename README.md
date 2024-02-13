@@ -39,3 +39,6 @@ npm start
 curl -X POST http://localhost:3000/add -d "1,2,3"
 
 npm test
+
+
+![image](https://github.com/navin-09/string-calculator-backend/assets/22154182/23c3da1a-2ef0-4288-97c8-12c55dad84e8)
